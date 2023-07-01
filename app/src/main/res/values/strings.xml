@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ProdPlus-RPG</string>
+
+    <string name="btmnav_title_dashboard">Dashboard</string>
+    <string name="btmnav_title_tasks">Tasks</string>
+    <string name="btmnav_title_notes">Notes</string>
+    <string name="btmnav_title_profile">Profile</string>
+
 </resources>

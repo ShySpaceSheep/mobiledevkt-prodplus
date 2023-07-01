@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation">
+
+    <fragment
+        android:id="@+id/btmnav_dashboard"
+        android:name="com.hitsujilabs.prodplusrpg.MainActivity"
+        android:label="@string/btmnav_title_dashboard"
+        tools:layout="@layout/fragment_pl" />
+    <fragment
+        android:id="@+id/btmnav_tasks"
+        android:name="com.hitsujilabs.prodplusrpg.MainActivity"
+        android:label="@string/btmnav_title_tasks"
+        tools:layout="@layout/fragment_pl" />
+    <fragment
+        android:id="@+id/btmnav_notes"
+        android:name="com.hitsujilabs.prodplusrpg.MainActivity"
+        android:label="@string/btmnav_title_notes"
+        tools:layout="@layout/fragment_pl" />
+    <fragment
+        android:id="@+id/btmnav_profile"
+        android:name="com.hitsujilabs.prodplusrpg.MainActivity"
+        android:label="@string/btmnav_title_profile"
+        tools:layout="@layout/fragment_pl" />
+
+</navigation>

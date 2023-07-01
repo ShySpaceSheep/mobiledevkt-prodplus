@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btmnav_dashboard"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/btmnav_title_dashboard" />
+    <item
+        android:id="@+id/btmnav_tasks"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/btmnav_title_tasks" />
+    <item
+        android:id="@+id/btmnav_notes"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/btmnav_title_notes" />
+    <item
+        android:id="@+id/btmnav_profile"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/btmnav_title_profile" />
+</menu>
